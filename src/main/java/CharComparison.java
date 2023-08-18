@@ -11,6 +11,7 @@ public class CharComparison {
      * @return -1 if A is less than B, 1 if A is greater than B, and 0 if the two arrays are identical.
      */
     public int compare(char[] a, char[] b){
+        // all tested
         String worda = String.valueOf(a);
         String wordb = String.valueOf(b);
         int comparison = worda.compareTo(wordb);
